@@ -133,31 +133,7 @@
         .catch((error) => {
             alert(error);
          console.error('Error:', error);
-        });     
-         function myFunction() 
-                {
-                    var input, filter, table1, trn, td, i, txtValue;
-                    input = document.getElementById("myInput");
-                    filter = input.value;
-                    table1 = document.getElementById("myTable");
-                    trn = table1.getElementsByTagName("tr");
-                    
-                   for (i = 0; i < trn.length; i++) 
-                    {
-                         tn1 = trn[i].getElementsByTagName("td")[1];
-                         if (td) 
-                         {
-                            txtValue = tn1.textContent || tn1.innerHTML;
-                            if (txtValue.indexOf(filter) > -1) 
-                            {
-                                trn[i].style.display = "";
-                            } 
-                            else {
-                                 trn[i].style.display = "none";
-                            }
-                        }       
-                    }
-                }
+        });             
 
         </script>
     </head>    
